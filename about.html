@@ -11,50 +11,67 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+	<!--Font awesome icons: https://fontawesome.com/icons?d=gallery -->
+	<link rel="stylesheet" type="text/css" href="css/menu_elastic.css" />
+	<script src="js/snap.svg-min.js"></script>
+	<!--[if IE]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 </head>
 
 <body>
+	<div class="menu-wrap">
+		<nav class="menu">
+			<div class="icon-list">
+				<a href="home.html"><span class="far fa-home"></span><span>Home</span></a>
+				<a href="about.html"><span class="fas fa-info-circle"></span><span>About</span></a>
+				<a href="services.html"><span class="fas fa-football-ball"></span><span>Services</span></a>
+				<a href="media.html"><span class="fas fa-bullhorn"></span><span>Media</span></a>
+				<a href="contact.html"><span class="fas fa-envelope"></span><span>Contact</span></a>
+			</div>
+		</nav>
+		<button class="close-button" id="close-button">Close Menu</button>
+		<div class="morph-shape" id="morph-shape" data-morph-open="M-1,0h101c0,0,0-1,0,395c0,404,0,405,0,405H-1V0z">
+			<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100 800" preserveAspectRatio="none">
+				<path d="M-1,0h101c0,0-97.833,153.603-97.833,396.167C2.167,627.579,100,800,100,800H-1V0z"/>
+			</svg>
+		</div>
+	</div>
+	<button class="menu-button" id="open-button">Open Menu</button>
+	<div class="content-wrap">
+	<div class="content">
 	<header id="topNav">
-		<section id="navWrap">
-			<h1 id="llanousLogo"><a href="home.html"><img id="logo" alt="LLanos U Logo" src="images/logo.png">LLanos U</a></h1>
-		</section>
+		<div id="navWrap">
+			<div id="llanousLogo"><a href="home.html"><img id="logo" alt="LLanos U Logo" src="images/logo.png"></a></div>
+		</div>
 	</header>
-	
-	<header id="mobileHeader">
-	  <button class="hamburger">&#9776;</button>
-	  <button class="cross">&#735;</button>
-	</header>
-	
-	<div class="menu">
-	  <ul>
-		<a href="home.html"><li class="home">Home</li></a>
-		<a href="about.html"><li class="about">About</li></a>
-		<a href="services.html"><li class="services">Services</li></a>
-		<a href="media.html"><li class="media">Media</li></a>		
-		<a href="contact.html"><li class="contact">Contact</li></a>
-	  </ul>
-	</div> 
 	
 	<section class="wrapper">
 		<div class="container">
-			<h1 class="heading">About</h1>
-			<p>-	Action shot or picture of me with a bio. I’ll have the bio to you as soon as its done.  </p>			
+			<!--<h1 class="heading">Home</h1>-->
+			<p>-	Action shot or picture of me with a bio. I’ll have the bio to you as soon as its done.  </p> 
 		</div>
 	</section>
 	
 	<footer>
-		<div id="copyright">&copy; <span id="year">2018</span>. All Rights Reserved.</div>
-		
-		<div class="social_media_footer">
-			<a class="facebook" target="_blank" href="http://www.facebook.com/bvillegas3" title="Facebook">Facebook</a>
-			<a class="twitter" target="_blank" href="http://twitter.com/BryanV_3" title="Twitter">Twitter</a>
-			<a class="instagram" target="_blank" href="http://instagram.com/bville3/" title="Instagram">Instagram</a>
-			<a class="linkedin" target="_blank" href="http://www.linkedin.com/pub/bryan-villegas/aa/944/ba2/" title="Linkedin">Linkedin</a>
-		</div>
+		<section>
+			<div id="copyright">&copy; <span id="year">2018</span>. All Rights Reserved.</div>
+			
+			<div class="social_media_footer">
+				<a href="https://www.facebook.com/francisco.llanos.520900" target="_blank"><span class="fab fa-facebook-f"></span></a>
+				<a href="https://www.instagram.com/coachllanosu/" target="_blank"><span class="fab fa-instagram"></span></a>
+				<a href="https://www.youtube.com/channel/UCEsAncPI58y8Y6jU_MHbilA" target="_blank"><span class="fab fa-youtube"></span></a>
+				<a href="https://twitter.com/coachllanosu?lang=en" target="_blank"><span class="fab fa-twitter"></span></a>
+				<a href="https://www.linkedin.com/in/francisco-llanos-578035a3" target="_blank"><span class="fab fa-linkedin"></span></a>
+			</div>
+		</section>
 	</footer>
-	
-	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-latest.min.js"></script>
     <script src='https://www.google.com/recaptcha/api.js'></script>
 	<script src="js/scripts.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/main3.js"></script>
 </body>
 </html>
