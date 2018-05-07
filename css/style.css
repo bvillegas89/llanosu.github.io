@@ -17,7 +17,7 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; }
 ins { text-decoration: none; }
 del { text-decoration: line-through; }
 table { border-collapse: collapse; border-spacing: 0; }
-body {color:#000000; background:#FFF url('../images/backgrounds/') repeat; font-size: 14px; font-family:Arial, Helvetica, sans-serif;}
+body {color:#000000; background:#FFF url('../images/backgrounds/') repeat; font-size: 16px; font-family:Arial, Helvetica, sans-serif;}
 ::-moz-selection { background: #231F20; color:#fff;}
 ::selection { background: #231F20; color:#fff;}
 .hidden {visibility:hidden;}
@@ -85,6 +85,18 @@ input:focus {box-shadow:none;}
 #iframe_wrapper {width:100%; height:50px;}
 /*--- Submit Button End ---*/
 
+/*--- About Me Start ---*/
+.aboutMeText {margin-bottom:25px;}
+.aboutMeImg {text-align:center; margin-bottom:25px;}
+.actionShot {max-width:275px; border:3px solid #231F20;}
+.actionShot:last-child {margin-left:-7px;}
+/*--- About Me End ---*/
+
+/*--- Services Start ---*/
+.servicesText {margin-bottom:25px; padding-left:10px;}
+.serviceHeadings {margin-bottom:15px; margin-top:50px; background: #f4f4f4; text-align: center; padding: 5px 0px; border: 1px solid #e5e5e5; font-size:18px;}
+.serviceHeadings:first-child {margin-top:0px;}
+/*--- Services End ---*/
 
 /*--- Responsive Slider Start --*/
 .rslides {
